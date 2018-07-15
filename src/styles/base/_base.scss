@@ -1,0 +1,27 @@
+
+html{
+font-size: 62.5%;
+
+}
+
+body{
+
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+//  background-color: $off-blue;
+}
+
+//kada je mis preko dugmeta da prikaze prst i ruku umesto strelice
+button{
+cursor: pointer;
+
+}
+//kad je disabled da pokaze obicnu strelicu kad prelazis preko buttona
+button:disabled{
+
+  cursor: default;
+}
+
+.is-active{
+  font-weight: bold;
+}

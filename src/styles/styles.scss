@@ -1,0 +1,8 @@
+//importuje se bez donje crte i .scss ekstenzije
+@import './base/settings'; //pozicionira se prvi, da bi svi ostali fajlovi mogli da koriste resurse odavde
+@import './base/base'; //base global styling stuff, font size, etc.
+//@import './components/header'; //style for header
+//@import './components/container';
+//@import './components/button';
+
+//stao kod 65
